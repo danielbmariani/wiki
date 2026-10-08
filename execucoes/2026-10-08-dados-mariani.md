@@ -12,7 +12,7 @@ status: rascunho
   (Daniel Mariani + Adriano, 08/10): votações pelo pipeline do Daniel Mariani por
   setor e as áreas de ponderação com religião, evitando duplicar o que o
   pipeline local já gera.
-- **Entradas:** pacote v1.0.0 de dados.danielmariani.com.br (manifest com
+- **Entradas:** pacote v1.0.0 de dados-eleicoes.danielmariani.com.br (manifest com
   SHA-256; gerado por pipeline com gates de auditoria — spot-checks
   contra a fonte, universo = malha 2022, checksums).
 - **Modelo:** agente:claude-fable-5, operado por Daniel Mariani.
