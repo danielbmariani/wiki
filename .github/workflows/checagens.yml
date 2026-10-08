@@ -1,0 +1,37 @@
+name: Checagens
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  checar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          repository: colmeiabrasil/colmeia
+          token: ${{ secrets.COLMEIA_TOKEN }}
+          path: colmeia
+          sparse-checkout: |
+            dados/celulas.json
+            dados/colmeia.json
+            dados/setores_ids.txt.gz
+            celulas
+            _data
+          sparse-checkout-cone-mode: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r scripts/requirements.txt
+      - run: python -m pytest scripts/testes -q
+        env:
+          COLMEIA_DIR: colmeia
+      - run: python scripts/checar.py $(git ls-files 'memoria/*.md' 'analises/*.md' 'execucoes/*.md' 'fontes/*.md')
+        env:
+          COLMEIA_DIR: colmeia
