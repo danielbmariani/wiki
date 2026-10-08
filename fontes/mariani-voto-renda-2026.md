@@ -6,11 +6,11 @@ fontes: [mariani-voto-renda-2026]
 status: rascunho
 ---
 
-# Voto e renda por setor censitário e área de ponderação (Daniel Mariani)
+# Voto e renda por setor censitário e área de ponderação
 
 Estimativas de voto (2022 T1 e T2; 2026 T1) por setor censitário e por
 área de ponderação do Censo 2022, com renda, demografia e religião do
-IBGE. Pipeline de Daniel Mariani; método do
+IBGE. Método do
 deltafolha/eleicoes-por-setores-censitarios, estendido (geolocalização
 complementada por CNEFE, auditoria contra boletins de urna, Censo 2022 e
 nível área de ponderação). Cópia em `dados/mariani/` da Colmeia; portal

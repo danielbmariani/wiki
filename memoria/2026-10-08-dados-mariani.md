@@ -10,7 +10,7 @@ status: rascunho
 Sobre `dados/mariani/` da Colmeia (ficha: `fontes/mariani-voto-renda-2026.md`).
 
 - **Complementam, não substituem** os `dados/setores/` gerados por
-  `scripts/setores.py`. Diferenças deste pipeline: geolocalização de
+  `scripts/setores.py`. Diferenças em relação ao pipeline da Colmeia: geolocalização de
   locais complementada por CNEFE e casamento de endereços (99,95% dos
   votos de 2026 cobertos; locais sem coordenada do TSE não ficam de fora),
   agregação auditada contra boletins de urna (zero divergências), inclui
