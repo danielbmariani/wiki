@@ -6,7 +6,7 @@ fontes: [mariani-voto-renda-2026]
 status: rascunho
 ---
 
-# Voto e renda por setor censitário e área de ponderação (Mariani)
+# Voto e renda por setor censitário e área de ponderação (Daniel Mariani)
 
 Estimativas de voto (2022 T1 e T2; 2026 T1) por setor censitário e por
 área de ponderação do Censo 2022, com renda, demografia e religião do
