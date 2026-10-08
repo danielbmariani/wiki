@@ -39,5 +39,5 @@ Sobre `dados/mariani/` da Colmeia (ficha: `fontes/mariani-voto-renda-2026.md`).
   em áreas pequenas o erro amostral é maior. Religião por setor NÃO
   existe no Censo.
 - Leitura direta por URL sem baixar tudo (DuckDB/Arrow):
-  `read_parquet('https://dados.danielmariani.com.br/dados/setores_eleicao_renda.parquet')`
+  `read_parquet('https://dados-eleicoes.danielmariani.com.br/dados/setores_eleicao_renda.parquet')`
   com filtro por `cd_mun` poda row groups (arquivo ordenado por município).
